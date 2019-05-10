@@ -6,7 +6,6 @@ body {
     font-family: "Courier New", monospace;
     font-weight: bold;
     text-decoration-skip: none;
-    text-align: justify;
 }
 
 h1, h2, h3, h4, h5, h6, p, li, .cm-s-inner, .footnote-line {
@@ -66,9 +65,12 @@ ul {
 
 /* Codes */
 
-.cm-s-inner {
-    border-left: 2px solid #333;
-    padding-left: 1em;
+code, .cm-s-inner {
+    background-color: #eee;
+}
+
+code {
+    white-space: nowrap;
 }
 
 .cm-s-inner * {
